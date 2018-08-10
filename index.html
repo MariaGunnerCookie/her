@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Heroes Evoldes - Los mejores Heroes</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<header id="header" class="header contenedor">
+			<!-- logotipo
+			menu-->
+		
+		<figure class="logotipo"><!-- logotipo -->
+			<img src="images/logo.png" width="186" height="60" alt="Hereos Evolded Logo"/>
+		</figure>
+
+		<nav class="menu"><!-- menu enlaces -->
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="#heroes">Heroes</a>
+				</li>
+				<li>
+					<a href="precios.html">Precios</a>
+				<li>
+			</ul>
+		</nav>
+		</header>
+
+		<section id="portada" class="portada">
+			 <div class="contenedor"><!--portada-->
+             <h1 class="titulo"> Heroes Evolved</h1><!--titulo-->
+              <h3 class="titulo-a">Se el mejor jugaror electro que siempre deseaste ser</h3> <!--resumen-->
+            <!--botom-->
+            <button a="http://hear.99.com/ar/heroes/akbar.shtml">Ver mas heroes </button>
+            </div>
+
+		</section>
+
+		<section id="heroes" class="heroes contenedor">
+		<h2 class="titulo-b">Nuestros Mejores Hereos</h2>
+
+         <article class="heroe">
+         	<img class="heroe right" src="images/minerva.jpg" width="160"  alt="Minerva"/>
+         	<div class="contenedor-heroe-a">
+         	<h3>Minerva</h3>
+         	<ol>
+         		<li>Crear 2 ilusiones durante 10 segundos.</li>
+         		<li>Aumenta su velocidad de movimiento</li>
+         		<li>
+         			Otorga su esquiva y 10% de velocidad de movimiento. 
+         		</li>
+         	</ol>
+         	</div>
+         </article>
+         <article class="heroe">
+         	<img class="left" src="images/arlequin.jpg" width="160" alt="Arlequin"/>
+         	<div class="contenedor-heroe-b">
+         	<h3 class="title-c">Arlequin</h3>
+         	<ol>
+         		<li>Otorga tres vala cada 5 segunas a mayor distancia fuera del rario de comun</li>
+         		<li>crea una bombas que reducen la curacion del enemigo</li>
+         		<li>obtiene mayor daño de 30% cuando con sus ulti</li>
+         	</ol>
+         	</div>
+         </article><!-- Mis Juegos-->
+     </section>
+     <footer class="footer">
+   <div class="contenedor">
+      <div class="contacto">
+        <img src="images/logo.png" alt="logotipo blanco"/>
+        <a href="tel:+50589902369"><strong>Telefono</strong><span>89902369<span></a>
+        <a href="mariaisabel1420@hotmail.com"><strong>E-mail</strong><span>contacto</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" required id="nombre" name="name"/>
+          <label for="email">E-mail</label>
+          <input type="email" required id="email" name="email"/>
+          <div class="sexo">
+            <label for="mujer">
+              <input type="radio" checked id="mujer" name="sexo" value="mujer"> mujer
+            </label>
+            <label for="hombre">
+              <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotización
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+            </label>
+          </div>
+        </div>
+        <div class="col2">
+          <label for="comentarios">Comentarios</label>
+          <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+          <input type="submit" value="Enviar" class="button"/>
+        </div>
+      </form>
+    </div>
+ </footer>
+
+	</body>
+
+</html>
